@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Unit 12 Lessons</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Donuts!</h1>
+
+    <form id="donut-form">
+      <hr />
+      <label>
+        Order a Donut
+        <select name="type">
+          <option value="glazed">Glazed Donut</option>
+          <option value="jelly">Jelly Donut</option>
+          <option value="boston">Boston Cream</option>
+        </select>
+      </label>
+      <button type="submit">Order</button>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+      var donutImages = {
+        glazed: "https://daylightdonutsstgeorge.com/wp-content/uploads/2023/06/Raised-Glazed.jpg",
+        jelly: "https://static01.nyt.com/images/2014/12/14/magazine/14eat4/14eat4-superJumbo.jpg",
+        boston: "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2020/03/screen-shot-2020-03-30-at-12-35-21-pm.png?fit=763%2C657&ssl=1",
+      };
+
+      $("#donut-form").on("submit", function (event) {
+        event.preventDefault();
+
+        
+        
+        
+        
+        
+      });
+    </script>
+  </body>
+</html>
+
+<!--- Taken From Khan Academy HTML/JS: Making webpages interactive with jQuery https://www.khanacademy.org/computing/computer-programming/html-js-jquery
+Lesson: https://www.khanacademy.org/computing/computer-programming/html-js-jquery/form-processing-jquery/pc/challenge-donut-calculator
+-->
